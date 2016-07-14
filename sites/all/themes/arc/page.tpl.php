@@ -42,7 +42,7 @@ print '<div id="messages">'. $messages .'</div>';
 			<div class="field field-type-text field-field-arcpage-descriptive">
 			    <div class="field-items">
 			            <div class="field-item odd">
-			                    <p>AAAAnthropological Research on the Contemporary is devoted to collaborative inquiry into contemporary forms of life, labor and language.</p>
+			                    <p>Anthropological Research on the Contemporary is devoted to collaborative inquiry into contemporary forms of life, labor and language.</p>
 			        </div>
 			        </div>
 			</div>

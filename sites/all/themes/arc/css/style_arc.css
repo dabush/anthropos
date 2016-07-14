@@ -1,0 +1,262 @@
+BODY {
+	background-color: #FFF;
+	background-image:none;
+	margin:0;
+	padding:0;
+	font-family: Geneva, Arial, sans-serif;
+	font-size:14px;
+}
+
+h2 {
+	font-size:18px;
+	margin-top:20px;
+}
+
+.col-center {
+	float:left;
+	width:630px;
+}
+
+body.no-sidebars div.col-center, body.no-sidebars div.contentblocks {
+	width:895px;
+}
+
+body.no-sidebars div.coll-title {
+	width:855px;
+}
+
+div.node {
+	margin:0;
+	padding:0;
+}
+
+#fillwidth {
+	position:absolute:
+	width: 100%;
+}
+
+#centered {
+	width:895px;
+	margin:auto;
+}
+
+#header {
+	margin:0;
+	margin-top:10px;
+	width:895px;
+	height:49px;
+}
+
+.superhead {
+	font-size:16px;
+	margin-bottom:5px;
+	
+}
+.headline {
+	font-size:20px;
+	margin-bottom:12px;
+}
+.highlightcolor {
+	color: #00A0B3;
+}
+.submitted {
+	font-size:11px;
+	font-style:italic;
+}
+
+div.views-field-title, h2 {
+	margin-top:0px;
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+	padding-bottom:5px;
+}
+
+div.views-field-body {
+	margin-bottom: 50px;
+}
+
+div.views-field-title a, h2 a, h2 a:visited {
+	text-decoration:none;
+	color:#000;
+}
+div.views-field-title a:hover {
+	color:#00A0B3;
+}
+
+
+.col-right {
+	margin-top:200px;
+	float:right;
+	clear:right;
+	width:240px;
+	font-size:11px;
+	font-decoration:none;
+}
+
+.col-right div.views-field-title {
+	margin-top:0px;
+	text-decoration:none;
+	color:#000;
+	font-size:12px;
+	padding-bottom:5px;
+}
+
+.col-right div.views-field-title a {
+	text-decoration:none;
+	color:#000;
+	font-size:12px;
+}
+
+div.views-field-created {
+	font-size:11px;
+	margin-bottom:10px;
+}
+
+div.field-field-arcpage-title p {
+	font-family: "Helvetica Neue", Arial,Helvetica;
+	font-size:24px;
+	margin:0;
+	padding:0;
+	margin-top:5px;
+}
+
+div.field-field-arcpage-image {
+	width:630px;
+	overflow:visible;
+}
+
+div.field-field-arcpage-descriptive p {
+	color:#888;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	margin-top:5px;
+}
+
+div.field-field-arcpage-descriptive {
+	/*remove padding, since we moved this above the banner*/
+	/*padding-bottom: 20px;*/
+	text-align: center;
+}
+
+div.field-field-arcpage-content {
+	font-size:14px;
+	margin:0;
+	padding:0;
+	margin-top:30px;
+}
+
+.tableitem, tbody {
+	border:0;
+}
+
+.tableitem td {
+	padding-right:20px;
+}
+
+.tableitem p {
+	margin-top:0;
+	padding-top:0;
+}
+
+td {
+	vertical-align:top;
+}
+div.contentblocks {
+	width: 630px;
+	float:left;
+}
+
+/* RIPOSTES */
+.resource-icon, .resource-title, .coll-icon, .coll-title {
+	float:left;
+}
+.resource-icon a, .resource-title a, .coll-icon a, .coll-title a {
+	text-decoration:none;
+	color:#000;
+	font-size:12px;
+}
+.contentblocks .resource-icon a, .contentblocks .resource-title a, .contentblocks .coll-icon a, .contentblocks .coll-title a {
+	text-decoration:none;
+	color:#000;
+	font-size:18px;
+}
+.contentblocks .coll-title p {
+	font-size:14px;
+}
+.resource-title, .coll-title {
+	width:200px;
+	margin-left:10px;
+}
+.contentblocks .resource-title, .coll-title {
+	width:590px;
+	margin-left:10px;
+}
+.resource-item {
+	width:250px;
+	clear:left;
+	padding-bottom:30px;
+}
+
+#block-views-latestresources-block_1, #block-views-latestproblems-block_1 {
+	clear:left;
+	margin-bottom:50px;
+}
+
+/* ARC STUDIO */
+div.view-ARC-studio div.views-row, div.view-ARC-cases div.views-row {
+	float:left;
+	width:190px;
+	height:120px;
+	margin-right:20px;
+}
+
+#block-views-ARC_studio-block_1 a, #block-views-ARC_cases-block_1 a, #block-views-ARC_pathways-block_1 a {
+	text-decoration:none;
+	color:#000;
+	font-size:14px;
+}
+
+#footer {
+	clear:both;
+	width:630px;
+}
+
+table a, table a:visited, table a:link {
+	text-decoration: none;
+	color:#000;
+}
+
+/* COUNTERPOINT CONTENT */
+div.views-field-field-counterpoint-left-value {
+	width:440px;
+	float:left;
+}
+div.views-field-field-counterpoint-right-value {
+	width:440px;
+	float:right;
+}
+
+div.view-Counterpoints div.views-row {
+	border-top: 1px #888 solid;
+	border-bottom: 1px #888 solid;
+	padding-top:20px;
+	padding-bottom:10px;
+	background-color:#eee;
+	overflow:auto;
+}
+
+div.view-Counterpoints div.views-field-title {
+	text-align:center;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+div.view-Counterpoints div.views-field-field-counterpoint-intro-value {
+	text-align:justify;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+
