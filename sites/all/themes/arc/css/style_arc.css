@@ -259,4 +259,127 @@ div.view-Counterpoints div.views-field-field-counterpoint-intro-value {
 	padding-right:40px;
 }
 
+/*styling for new version of basic page "Welcome", displayed on front page*/
+body {
+  margin: 0 0 0 0;
+  color: black;
+  background-color: #ffffff;
+  font-family: Geneva, arial, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tile {
+  position: relative;
+  width: 22%;
+  height: 70px;
+  margin: 4px;
+  -webkit-transition: background-color 0.5s ease;
+  -moz-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+.tile:hover {
+	background-color: #b3b3b3 !important;
+}
+
+.blank:hover {
+	background-color: #ffffff !important;
+}
+
+.tile-title {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 12px;
+  left: 50%;
+}
+
+
+.tile-title p {
+  margin: auto;
+}
+
+.floatLeft {
+  float: left;
+}
+
+#about {
+  background: rgb(44, 44, 44);
+}
+
+#posts {
+  background: rgb(67, 67, 67);
+}
+
+#studios {
+  background: rgb(130, 130, 130);
+}
+
+#arc-documents {
+  background: rgb(154, 154, 154);
+}
+
+#bios-technika {
+  background: rgb(115, 115, 115);
+}
+   
+#labinar {
+  background: rgb(130, 130, 130);
+}
+   
+#contemporary {
+     background: rgb(76, 76, 76);
+}
+   
+#rabinow {
+  background: rgb(11, 9, 24);
+}
+
+#stavrianakis {
+  background: rgb(117, 114, 100);
+}
+
+#fisher {
+  background: rgb(64, 34, 21);
+}
+
+#korsby {
+  background: rgb(127, 103, 90);
+}
+
+#johnsrud {
+  background: rgb(132, 135, 142);
+}
+   
+#krause {
+  background: rgb(90, 91, 96);
+}
+   
+#shoked {
+     background: rgb(59, 55, 39);
+}
+
+
+@media all and (max-width:680px) {
+  .tile {
+    width: 99.3%;
+    padding-bottom: 49.3%;
+    margin-bottom: 1%;
+    margin: 0;
+  }
+  .blank {
+    display: none;
+  }
+}
 
