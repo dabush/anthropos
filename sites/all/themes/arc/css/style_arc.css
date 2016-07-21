@@ -404,10 +404,18 @@ body {
 	text-align: center;
 	height: 70px;
 	background: rgb(154, 154, 154);
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+  	-o-transition: background-color 0.5s ease;
+  	transition: background-color 0.5s ease;
+}
+
+.view-ARC-recent-posts .view-header:hover {
+	background-color: #b3b3b3 !important;
 }
 
 .view-ARC-recent-posts .view-header p {
-	color: #ffffff;
+	color: red;
 	font-size: 12px;
 }
 
@@ -430,6 +438,14 @@ body {
 	display: block;
 	text-align: center;
 	padding: 0;
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+  	-o-transition: background-color 0.5s ease;
+  	transition: background-color 0.5s ease;
+}
+
+.view-ARC-recent-posts tr:hover {
+	background-color: #b3b3b3 !important;
 }
 
 .view-ARC-recent-posts th, thead {
@@ -445,6 +461,8 @@ body {
 	background: none;
 
 }
+
+
 .view-ARC-recent-posts td.views-field.views-field-title a {
 	color: #ffffff;
 	font-size: 12px;
