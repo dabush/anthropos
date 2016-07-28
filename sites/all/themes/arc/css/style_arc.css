@@ -43,8 +43,13 @@ div.node {
 #header {
 	margin:0;
 	margin-top:10px;
+	/*change settings for new logo*/
 	width:895px;
-	height:49px;
+	/*height:49px;*/
+}
+
+#header img {
+	width: 100%;
 }
 
 .superhead {
@@ -424,7 +429,6 @@ body {
 	top: 30%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
-
 }
 
 

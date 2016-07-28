@@ -39,12 +39,12 @@ print '<div id="messages">'. $messages .'</div>';
 		</div>
 	  <?php endif ?>-->
 		<div id="main_content">
-			<div class="field field-type-text field-field-arcpage-descriptive">
+			<!--<div class="field field-type-text field-field-arcpage-descriptive">
 			    <div class="field-items">
 			            <div class="field-item odd">
 			                    <p>Anthropological Research on the Contemporary is devoted to collaborative inquiry into contemporary forms of life, labor and language.</p>
 			        </div>
-			        </div>
+			        </div>-->
 			</div>
 			    <div class="field-items">
 			            <div class="field-item odd">
