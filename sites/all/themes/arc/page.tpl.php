@@ -48,7 +48,7 @@ print '<div id="messages">'. $messages .'</div>';
 			</div>
 			    <div class="field-items">
 			            <div class="field-item odd">
-			                    <img  class="imagefield imagefield-field_arcpage_image" width="895" height="170" alt="" src="/sites/default/files/imagefield_default_images/banner-HOMEPAGE2.jpg" />
+			                    <img  class="imagefield imagefield-field_arcpage_image" alt="" src="/sites/default/files/imagefield_default_images/banner-HOMEPAGE2.jpg" />
 			        </div>
 			</div>
 			
