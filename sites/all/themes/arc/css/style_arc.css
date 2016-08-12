@@ -319,7 +319,7 @@ body {
 .tile {
   position: relative;
   width: 22%;
-  height: 70px;
+  height: 60px;
   margin: 4px;
   -webkit-transition: background-color 0.5s ease;
   -moz-transition: background-color 0.5s ease;
@@ -347,6 +347,10 @@ body {
   left: 50%;
 }
 
+.tile-title a {
+	text-decoration: none !important;
+	color: #ffffff;
+}
 
 .tile-title p {
   margin: auto;
@@ -451,7 +455,7 @@ body {
 	width: 22%;
 	float: left;
 	text-align: center;
-	height: 70px;
+	height: 60px;
 	background: rgb(154, 154, 154);
 	-webkit-transition: background-color 0.5s ease;
   	-moz-transition: background-color 0.5s ease;
@@ -480,7 +484,7 @@ body {
 .view-ARC-recent-posts tr {
 	width: 22.11%;
 	float: left;
-	height: 70px;
+	height: 60px;
 	margin-left: 8px;
 	background: rgb(154, 154, 154);
 	display: block;
@@ -526,6 +530,14 @@ body {
 	background: rgb(154, 154, 154);
 	clear: left;
 	border-radius: 50%;
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+  	-o-transition: background-color 0.5s ease;
+  	transition: background-color 0.5s ease;
+}
+
+.twitter-icon:hover {
+	background-color: #b3b3b3;
 }
 
 .twitter-icon img {
@@ -549,6 +561,14 @@ body {
 	transform: translateY(-100%);
 	-webkit-transform: translateY(-100%);
 	float: right;
+	-webkit-transition: background-color 0.5s ease;
+  	-moz-transition: background-color 0.5s ease;
+  	-o-transition: background-color 0.5s ease;
+  	transition: background-color 0.5s ease;
+}
+
+.facebook-icon:hover {
+	background-color: #b3b3b3;
 }
 
 .facebook-icon img {
@@ -565,5 +585,33 @@ body {
 		width: 99%;
 		margin-left: 0;
 		margin-top: 5px;
+	}
+	#block-block-24 {
+		margin-left: 5%;
+	}
+	#block-block-24 .twitter-icon {
+		position: relative;
+		top: 25px;
+	}
+	#block-block-24 .facebook-icon {
+		position: relative;
+		top: 25px;
+	}
+}
+
+/*this is the description block on the about page*/
+#block-block-26 {
+	float: left;
+	width: 93%;
+	margin-top: 3em;
+}
+
+@media all and (max-width:680px) {
+	#block-block-26 {
+		width: 80%;
+		margin: auto;
+		padding-top: 25px;
+		text-align: justify;
+		float: none;
 	}
 }
